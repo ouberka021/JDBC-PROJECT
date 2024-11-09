@@ -1,0 +1,134 @@
+
+/*
+-----Weekend SQL Live Class Schedule----
+
+10Am-5Pm EST(1 Hour Lunch Break)
+45min*6session
+10:00 - 10:45
+Expand
+message.txt
+6 KB
+Hidir Sen — Today at 10:13 AM
+organized collection of structured information or data
+Lubeyna Komurcu — Today at 10:13 AM
+collction of data
+Mahrukh Mujeeb — Today at 10:13 AM
+stores and manipulates data
+﻿
+/*
+-----Weekend SQL Live Class Schedule----
+
+10Am-5Pm EST(1 Hour Lunch Break)
+45min*6session
+10:00 - 10:45
+11:00 - 11:45
+12:00 - 12:45
+---Lunch Break----
+2:00 - 2:45
+3:00 - 3:45
+4:00 - 4:45
+
+1. What is Database ?
+2. What kinds of Database Management Systems we have?
+3. What is Relational Database?
+4. What is Non Relational Database?
+5. What is SQL ?
+6. What is the primary categories of SQL languages?
+7. What is common SQL COMMANDS under this categories?
+8. What is Database Flow?
+9. Which tools can be used for Database Testing?
+10. How can we create EC2 Server and getting run and up IP address?
+11. When we try to reach out one APP in server how can we find related APP that we want?
+12. How can we reach Oracle database?
+13. How can I make connection with credentials?
+14. Why we should use OUR OWN IP for first week ORACLE DB classes?
+15. What is Query ?
+16. How can we type our queries?
+17. How can we type our comments in sql files?
+
+*/
+
+-- TASK 1-1 - Display department names  from departments table
+
+-- TASK 1-2 - Display just JOB_TITLE from JOBS table
+
+-- TASK 2 - Display first_name, last_name, department_id, salary from employees
+
+-- TASK 3 - Display first_name, last_name, department_id, salary from employees whose salary is higher than 9000
+
+-- TASK 4 - Display first_name, last_name, department_id, salary from employees whose salary equals or more than 9000 and salary equals or less than 15000 sort result based on salary asc
+
+-- TASK 5 - Display first_name, last_name, department_id, salary from employees whose firstname is Peter and salary is bigger than 5000 sort result based on salary desc
+
+-- TASK 6 - Display country_id, country_name, region_id from countries table for region id 2 or 4 sort result based on region_id desc and country_name asc
+
+-- TASK 7-1 - Display employee firstname and lastname as full_name , salary as annual salary  , job_id from employees in descending order
+
+-- TASK 7-2 - Display employee firstname and lastname as full_name , salary as annual salary  , job_id from employees in descending order, whose job ID starts with S
+
+-- TASK 7 - 3 - Display employee firstname and lastname as full_name , salary as annual salary  , job_id from employees in descending order whose job ID starts with S and it has 6 letter
+
+-- TASK 8 - Display country id and country name where country name ends with a
+
+-- TASK 9 - Display country id and country name where country name ends with a and third letter is i
+
+-- IQ 1 - Get me employees where employee ids are even number
+
+-- IQ 2 --> Write a query to print first_name and salary for all employees in the Employee table who earn a salary larger than 3000. Sort your results in ascending order of the last 3 characters in the employees first_name if two or more employees have first_names ending with same 3 characters, then sort them by highest salary in desc
+
+-- TASK 10- 1 - How many city we have in each country from locations table
+
+-- TASK 10- 2  - order them based on city count in desc
+
+-- TASK 10- 3 - Filter result where country id starts with C
+
+-- TASK 10- 4 -  Display country id if city count is bigger than 1
+
+-- TASK 10- 5 - Display country id that starts with C and also if city count is bigger than 1
+
+-- TASK 11 -1  How many employees is working for EACH department
+
+-- TASK 11 -2 Max_salary / min_salary / total_expense / avg for each department
+
+-- TASK 11 -3 Ignore null departments
+
+-- TASK 11 -4 Display department id where employees count is less than 5
+
+-- TASK 12 - Display those employees firstname,lastname and salary who get higher salary than the employee whose employee_id is 104
+
+-- TASK 13 -1  Display Manager firstname,lastname of Peter,Vargas from employees table
+
+-- TASK 13 -2 Display Manager firstname,lastname for where employee name Peter
+
+-- TASK 14 - Display all information who is getting 11th highest salary
+
+-- TASK 15 - Display all first_name and  related department_name
+
+-- TASK 16 -1 Display all first_name, last name and department_name including the  employee without
+
+-- TASK 16 -2 Display all first_name and department_name including the  department without employee
+
+-- TASK 16 -3 Display all first_name and department_name including the department without employee
+
+-- TASK 16 -4 Display all first_name and department_name including the  employee without department
+
+-- TASK 16 -5 Display all firstname and department name including the department without employees and also employees without the department
+
+-- TASK 17 -1 How many employees working for each department (use department name)
+
+-- TASK 17 -2 Display if the employee count is bigger than 10
+
+-- TASK 18 - Display all employees with their manager first_name and last_names
+
+-- TASK 19 - Display all EMPLOYEES who is manager
+
+-- TASK 20 - Display all EMPLOYEES who is not manager
+--First find all manager IDs
+
+-- IQ3 - Given the Employee table, write a SQL query that finds out employees who earn more than their managers.
+
+-- IQ4 - Given the Employee table, write a SQL query that finds out amount of 3th highest salary
+
+-- IQ5 - Given the Employee table and Job table, write a SQL query that finds out the difference between maximum salary of the job title and salary of the employees. Return job_id, first_name, maximum salary of the job title, salary of the employee and salary difference.
+message.txt
+6 KB
