@@ -2,8 +2,7 @@ select * from EMPLOYEES;
 
 --Display all information who is making max salary
     --max salary
-    SELECT MAX(SALARY) FROM EMPLOYEES; --24000
-
+SELECT MAX(SALARY) AS MAXIMUM_SALARY FROM EMPLOYEES;
     --if we know max salary can we find who is getting it ?
     SELECT *
     FROM EMPLOYEES
@@ -15,6 +14,7 @@ select * from EMPLOYEES;
     SELECT *
     FROM EMPLOYEES
     WHERE SALARY = (SELECT MAX(SALARY) FROM EMPLOYEES);
+
 
 --TASK: Give me all information who is getting min salary
     --min salary ?
@@ -32,8 +32,7 @@ select * from EMPLOYEES;
 
 --display all information who is getting second highest salary ?
         --find max salary
-        SELECT MAX(SALARY) FROM EMPLOYEES;
-
+ SELECT MAX(SALARY) FROM EMPLOYEES;
         --second max salary
         SELECT MAX(SALARY)
         FROM EMPLOYEES
@@ -51,6 +50,7 @@ select * from EMPLOYEES;
                                                                 (SELECT MAX(SALARY) FROM EMPLOYEES));
 --TASK: Display all information who is getting more than average ?
         --find average salary
+
         SELECT ROUND(AVG(SALARY))FROM EMPLOYEES; --6462
 
         --who is making more than average salary ?

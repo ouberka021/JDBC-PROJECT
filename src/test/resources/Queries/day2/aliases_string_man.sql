@@ -70,7 +70,7 @@ select email, length(email) as email_length FROM EMPLOYEES;
 
     --how many question ??
     SELECT COUNT(*) FROM EMPLOYEES
-    WHERE FIRST_NAME LIKE '______'
+    WHERE FIRST_NAME LIKE '______';
 
 --display initial from firstname and lastname --> S.K.  ---- N.K.
 
