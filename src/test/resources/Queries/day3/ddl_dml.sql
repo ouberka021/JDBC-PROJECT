@@ -1,5 +1,5 @@
 SELECt * FROM EMPLOYEES;
-
+-- TODO Auto-generated
 /*
 create table syntax:
     create table TableName(
@@ -26,7 +26,7 @@ VALUES (value1, value2 … );
 */
 
 INSERT INTO SCRUMTEAM(emp_id, first_name, last_name, job_title, salary)
-VALUES (1,'Severus','Snape','Tester',130000);
+VALUES (1,'TAIEB','OUBERKA','Tester',130000);
 
 INSERT INTO SCRUMTEAM(emp_id, first_name, last_name, job_title, salary)
 VALUES (2,'Harold','Finch','Developer',140000);
